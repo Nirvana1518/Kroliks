@@ -4,15 +4,8 @@
 .containerp{
   display: none;
 }
-
 .footerp{
   display: none;
-  opacity:0;
-}
-
-.linep1{
-  display:none;
-  opacity: 0;
 }
 
 body{
@@ -309,7 +302,6 @@ body{
     display: flex;
     margin:auto;
     align-items: center;
-    margin-right:20px;
   }
   .logo-imagePh{
     margin-right: 10px;
