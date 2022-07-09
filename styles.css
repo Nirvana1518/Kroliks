@@ -4,6 +4,9 @@
 .containerp{
   display: none;
 }
+.footerp{
+  display: none;
+}
 
 body{
     margin-top: 0;
@@ -289,7 +292,9 @@ body{
     position: relative;
     color:#fff;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .header-logoPh{
@@ -298,8 +303,11 @@ body{
     margin:auto;
     align-items: center;
   }
+  .logo-imagePh{
+    margin-right: 10px;
+  }
   .header-logoPh img{
-    width:25px;
+    width:35px;
   }
 
   .logo-titlePh{
@@ -313,7 +321,8 @@ body{
 }
 
 .header-linksPh a{
-    margin-right: 30px;
+    margin-right: 25px;
+    font-weight: 600;
     color:black;
     text-decoration: none;
 }
@@ -356,9 +365,96 @@ body{
   margin-bottom: 5px;
 }
 
+.block2p{
+  max-width: 100%;
+  background-color: #D46A6A;
+  color:#fff;
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.block2p-title{
+  font-size: 21px;
+  font-weight: 600;
+}
+.block2p-image img{
+  width: 90%;
+  border-radius: 30px;
+}
 
+.block3p{
+  max-width: 100%;
+  background-color: #D46A6A;
+  color:#fff;
+  font-size: 18px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.block3p-title{
+  font-size: 21px;
+  font-weight: 600;
+}
+.block3p-image img{
+  width: 90%;
+  border-radius: 30px; 
+}
+
+#small-textp {
+  font-size: 12px;
+  padding: 10px;
+  color: rgb(108, 108, 136);
+}
 
 /* /Контейнер */
 
+/* Футер */
 
-  }
+.footerp{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  background-color: #D46A6A;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 30px;
+  align-items: flex-start;
+}
+.linep1{
+  display: flex;
+  justify-content: space-around;
+}
+.blockp1{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items:flex-start;
+  padding-right: 15px;
+}
+
+.blockp2{
+  text-align: start;
+  font-size: 14px;
+  padding-right: 15px;
+  
+}
+.blockp2-social-links a{
+  text-decoration: none;
+}
+.blockp2-social-links img{
+  width: 60px;
+}
+
+.part2{
+  font-size: 10px;
+}
+
+/* Футер */
+}
+
+
